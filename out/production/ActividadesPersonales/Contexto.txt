@@ -1,0 +1,19 @@
+1. Sistema de Construcción de Menús para Restaurantes (Builder)
+Contexto: Una cadena de restaurantes necesita un sistema flexible para 
+crear menús personalizados según el tipo de cliente
+(infantil, vegetariano, ejecutivo). Cada menú debe construirse paso a paso,
+permitiendo agregar componentes opcionales y validar que los menús tengan
+los elementos obligatorios.
+Requisitos:
+•	Cada menú debe tener un plato principal, una bebida y opcionalmente postre, 
+aperitivo o ambos.
+•	Algunos restaurantes pueden incluir componentes especiales 
+(ej: pan artesanal, sopa del día).
+•	El proceso de construcción debe evitar menús inválidos 
+(ej: sin plato principal).
+•	Debe ser fácil agregar nuevos tipos de menús en el futuro.
+Funcionalidades:
+•	Métodos para agregar cada componente (plato principal, bebida, postre, etc.).
+•	Validación de que el menú esté completo antes de obtener el objeto final.
+•	Posibilidad de crear menús con configuraciones 
+predefinidas (ej: menú vegetariano estándar).
